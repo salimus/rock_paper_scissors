@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Capriola');
+body {
+	text-align: center;
+}
+
+h1 {
+	font-family: 'Capriola', sans-serif !important;
+}
+
+#space {
+	height: 50px;
+}
+
+[class*='button'] {
+	font-family: 'Capriola', sans-serif;
+	font-size: 20px;
+	background-color: #9FEEFF;
+	/*box-shadow: 0 0.03em 0.10em 0 rgba(0,0,0,0.3);*/
+	color: black;
+	display: inline-block;
+	outline: none;
+	letter-spacing: 0.2px;
+	text-align: center;
+	text-decoration: none;
+	margin: 5px;
+	border-radius: 3px;
+	padding: 8px 16px 8px 16px;
+	box-sizing: border-box;
+	outline: none;
+}
+
+/*#start {
+	padding: 11px 63px 11px 63px;
+	background-color: #00C75D;
+	color: black;
+}
+
+#reset {
+	padding: 11px 63px 11px 63px;
+	background-color: #C7C1B5;
+	color: black;
+}*/
+
+.button:hover{
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.2), 0 1px 4px 0 rgba(0, 0, 0, 0.15);
+  border: 1px solid #ccc;
+}
+
+@media only screen and (max-width: 500px) {
+  img {
+    display:none;
+  }
+}
+
+
