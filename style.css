@@ -29,7 +29,13 @@ h1 {
 	outline: none;
 }
 
-/*#start {
+#start {
+	padding: 11px 63px 11px 63px;
+	background-color: #00C75D;
+	color: black;
+}
+
+#two {
 	padding: 11px 63px 11px 63px;
 	background-color: #00C75D;
 	color: black;
@@ -39,7 +45,7 @@ h1 {
 	padding: 11px 63px 11px 63px;
 	background-color: #C7C1B5;
 	color: black;
-}*/
+}
 
 .button:hover{
   box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.2), 0 1px 4px 0 rgba(0, 0, 0, 0.15);
